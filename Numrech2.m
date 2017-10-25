@@ -10,7 +10,7 @@ p2 = 1+32*(x.^2-pi/8*x+pi.^2/16.^2);
 %Plottet die drei Funktionen mit den Eingabewerten von x
 plot(x,p0,x,p1,x,p2);
 %Das verstehst du hoffentlich nigga
-title("Taylorpolynom");
+title('Taylorpolynom');
 legend('sin(8x)','1','1+32*(x-pi/16)^2');
 
 %Die letzte Aufgabe
@@ -29,7 +29,7 @@ figure;
 plot(a,f0);
 hold on;
 plot(a,f1);
-title("Fehler");
+title('Fehler');
 %Ja ich habe das vergessen zu machen also hast du nur die kaka version
 %davon
 legend('Das Ding mit tan', 'Das Ding mit sin');
