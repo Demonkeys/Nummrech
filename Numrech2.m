@@ -26,7 +26,7 @@ plot(x,p2);
 
 
 %Geben dem Graphen einen Namen und eine Legende
-title("Taylorpolynom");
+title('Taylorpolynom');
 legend('sin(8x)','1','1-32*(x-pi/16)^2');
 hold off;
 
@@ -50,7 +50,7 @@ hold on;
 %Plotte beide Funktionen in den Graph
 plot(a,f0);
 plot(a,f1);
-title("Fehler");
+title('Fehler');
 %Ja ich habe das vergessen zu machen also hast du nur die kaka version
 %davon
 legend('Relative Konditionszahl', 'Relativer Fehler der Ausgabe');
